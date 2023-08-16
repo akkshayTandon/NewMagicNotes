@@ -1,0 +1,25 @@
+.noteGroup{
+        /* display: block; */
+        border: 1px solid red;
+        border-radius: 15px;
+        width: 15rem;
+        /* height: 300px; */
+        margin: 10px;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #d3ca7b;
+}
+
+.noteGroupTitle{
+    font-size: 22px;
+    padding: 5px 8px;
+    text-decoration: underline;
+}
+
+.noteGroupText{
+    font-size: 18px;
+    padding: 10px 10px;
+}

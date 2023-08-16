@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+}
+

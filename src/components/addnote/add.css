@@ -1,0 +1,55 @@
+#addNote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid red;
+    border-radius: 4rem;
+    padding: 2rem;
+    background-color: #191f28;
+}
+
+#addNote h2 {
+    background-color: rgb(26 25 25);
+    color: #008052;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#noteTitle {
+    border: 2px solid #054e50;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 12px;
+    font-weight: bolder;
+    width: 100%;
+}
+
+#noteTxt {
+    border: 2px solid #054e50;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 18px;
+    margin: 8px;
+    width: 100%;
+}
+
+#noteBtns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+/* .noteBtn {
+    border: 4px double #5e7486;
+    border-radius: 15px;
+    background-color: #061917;
+    color: #5a84ff;
+    margin: 8px 5px;
+    padding: 10px 16px;
+    font-size: medium;
+    cursor: pointer;
+} */
