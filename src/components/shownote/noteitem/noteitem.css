@@ -2,11 +2,11 @@
     /* display: block; */
     border: 1px solid red;
     border-radius: 15px;
-    width: 16rem;
+    width: inherit;
     /* width: 15rem; */
     /* height: 300px; */
     margin: 10px;
-    padding: 10px 10px;
+    padding: 16px 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -22,12 +22,16 @@
 
 .noteGroupText {
     font-size: 18px;
-    padding: 10px 10px;
+    padding: 7px 7px;
+    /* height: 50vh; */
     /* width: fit-content; */
+    /* width: 50vmin; */
     background-color: transparent;
+    width: 100%;
     resize: none;
     border: none;
     outline: none;
     box-shadow: none;
-
+    scrollbar-width: none;
+    /* width: -webkit-fill-available; */
 }
